@@ -1,0 +1,36 @@
+/* VehicleForm.css */
+
+/* Add a background image to the body */
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(82,92,135);
+    background: linear-gradient(90deg, rgba(82,92,135,1) 0%, rgba(49,114,164,1) 100%, rgb(4, 186, 222) 100%); 
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #ffffff; /* Text color for better readability */
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Add some spacing between the selects */
+  select {
+    margin: 5px 0;
+  }
+  
+  h3 {
+    margin-top: 20px;
+  }
+  
+  p {
+    margin: 5px;
+  }
+  
